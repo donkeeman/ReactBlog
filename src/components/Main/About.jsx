@@ -1,5 +1,12 @@
 import styles from "./about.module.css";
 
+import Github from "../../assets/Github.svg";
+import Twitter from "../../assets/Twitter.svg";
+import Facebook from "../../assets/Facebook.svg";
+import Instagram from "../../assets/Instagram.svg";
+
+const snsSvgArr = [Github, Twitter, Facebook, Instagram];
+
 const About = ({user}) => {
     return(
         <aside class={styles["about"]}>
@@ -20,7 +27,10 @@ const About = ({user}) => {
                             return (
                                 <li key={i}>
                                     <a href={x[1]}>
-                                        <img src="./assets/Twitter.svg" alt={x[0]} />
+                                        <img
+                                            src={snsSvgArr[i]}
+                                            alt={x[0]}
+                                        />
                                     </a>
                                 </li>
                             );

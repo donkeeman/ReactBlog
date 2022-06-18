@@ -1,18 +1,21 @@
 import styles from "./header.module.css";
+import "./button.css"
+import Login from "../../assets/icon-login.svg";
+import Register from "../../assets/icon-register.svg";
 
 const Logouted = () => {
     return (
         <ul>
         {/* <!-- 로그아웃 --> */}
             <li>
-                <a href="#" className={styles["button gray"]}>
-                    <img src="../assets/icon-login.svg" alt="" />
+                <a href="#" className={`${"button gray"} ${styles["button"]}`}>
+                    <img src={Login} alt="" />
                     <span>Login</span>
                 </a>
             </li>
             <li class="only-pc">
-                <a href="#" className={styles["button gray"]}>
-                    <img src="../assets/icon-register.svg" alt="" />
+                <a href="#" className={`${"button gray"} ${styles["button"]}`}>
+                    <img src={Register} alt="" />
                     <span>Register</span>
                 </a>
             </li>
