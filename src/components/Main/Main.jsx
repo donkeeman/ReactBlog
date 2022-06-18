@@ -1,5 +1,5 @@
 import Posts from "./Posts";
-import Profile from "./Profile";
+import About from "./About";
 import data from "../../database/data.json";
 
 const Main = () => {
@@ -11,7 +11,7 @@ const Main = () => {
 				<Posts posts={data.posts} />
 				{/* <!-- //posts --> */}
 				{/* <!-- about --> */}
-				<Profile user={data.users[1]} />
+				<About user={data.users[1]} />
 				{/* <!-- //about --> */}
 			</div>
 		</main>
