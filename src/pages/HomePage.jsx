@@ -12,7 +12,7 @@ import data from "../database/data.json"
 const Homepage = () => {
     return(
     <>
-        <Header profileImg={data.users[1].profileImg} login={true} />
+        <Header profileImg={data.users[1].profileImg} login={false} />
         <Banner mainTitle={data.blog.mainTitle} subTitle={data.blog.subTitle} description={data.blog.description}/>
         <Main />
         <Footer />

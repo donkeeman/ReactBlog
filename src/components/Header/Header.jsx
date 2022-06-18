@@ -1,10 +1,11 @@
+import styles from "./header.module.css";
 import Logined from "./Logined";
 import Logouted from "./Logouted";
 
 const Header = ({profileImg, login}) => {
     return(
     <header>
-        <div className="max-width">
+        <div className={styles["max-width"]}>
             <h1>
                 <a href="../">
                     <img src="../assets/Logo.svg" alt="My Blog" />

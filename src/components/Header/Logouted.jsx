@@ -1,15 +1,17 @@
+import styles from "./header.module.css";
+
 const Logouted = () => {
     return (
         <ul>
         {/* <!-- 로그아웃 --> */}
             <li>
-                <a href="#" className="button gray">
+                <a href="#" className={styles["button gray"]}>
                     <img src="../assets/icon-login.svg" alt="" />
                     <span>Login</span>
                 </a>
             </li>
             <li class="only-pc">
-                <a href="#" className="button gray">
+                <a href="#" className={styles["button gray"]}>
                     <img src="../assets/icon-register.svg" alt="" />
                     <span>Register</span>
                 </a>
