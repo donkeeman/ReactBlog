@@ -1,8 +1,9 @@
+import styles from "./posts.module.css";
 import Post from "./Post";
 
 const Posts = ({posts}) => {
     return (
-        <ul class="posts">
+        <ul className={styles["posts"]}>
             {posts.map( x => {
                 return(
                 <li key={x.id}>
