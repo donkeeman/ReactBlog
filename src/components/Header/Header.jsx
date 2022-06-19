@@ -7,7 +7,7 @@ import Logo from "../../assets/Logo.svg";
 const Header = ({profileImg, login}) => {
     return(
     <header>
-        <div className={styles["max-width"]}>
+        <div className={`${styles["max-width"]} ${"max-width"}`}>
             <h1>
                 <a href="../">
                     <img src={Logo} alt="My Blog" />
