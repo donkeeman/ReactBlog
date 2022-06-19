@@ -7,12 +7,12 @@ const Main = () => {
     return(
         <main>
 			{/* <!-- posts --> */}
-			<div class={styles["max-width"]}>
+			<div class={`${styles["max-width"]} ${"max-width"}`}>
 				<h2 class="a11y-hidden">Post</h2>
 				<Posts posts={data.posts} />
 				{/* <!-- //posts --> */}
 				{/* <!-- about --> */}
-				<About user={data.users[1]} />
+				<About user={data.users[0]} />
 				{/* <!-- //about --> */}
 			</div>
 		</main>
