@@ -7,8 +7,6 @@ import Footer from "../components/Footer/Footer"
 
 import data from "../database/data.json"
 
-// const [login, setLogin] = useState(true);
-
 const Homepage = () => {
     return(
     <>
