@@ -13,7 +13,7 @@ import "./app.css";
 function App() {
 	return(
 		<BrowserRouter>
-			<Header profileImg={data.users[1].profileImg} />
+			<Header profileImg={data.users[0].profileImg} />
 			<Route
 				path="/" exact
 				render={ props => <HomePage {...props} data={data.blog} />}

@@ -7,8 +7,8 @@ const Main = () => {
     return(
 		<main>
 			{/* <!-- posts --> */}
-			<div class={`${styles["max-width"]} ${"max-width"}`}>
-				<h2 class="a11y-hidden">Post</h2>
+			<div className={`${styles["max-width"]} ${"max-width"}`}>
+				<h2 className="a11y-hidden">Post</h2>
 				<Posts posts={data.posts} />
 				{/* <!-- //posts --> */}
 				{/* <!-- about --> */}
