@@ -8,10 +8,10 @@ const Logouted = ({setLogin}) => {
         <ul>
         {/* <!-- 로그아웃 --> */}
             <li>
-                <a href="/"
+                <a href="#"
                 className={`${"button gray"} ${styles["button"]}`}
                 onClick={() => {
-                    setLogin();
+                    setLogin(true);
                 }}>
                     <img src={Login} alt="" />
                     <span>Login</span>

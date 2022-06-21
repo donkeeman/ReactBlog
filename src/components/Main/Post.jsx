@@ -2,9 +2,11 @@ import styles from "./post.module.css";
 import "./category.css";
 import "./author.css";
 
+import { Link } from "react-router-dom";
+
 const Post = ({thumbnail, title, mainBg, category, profileImg, contents, userName, created}) => {
     return(
-        <a href="post-view.html" className={styles["post"]}>
+        <Link to="/postview" className={styles["post"]}>
             <article>
                 <img src={thumbnail} alt="" />
                 <div className={styles["contents-wrap"]}>
@@ -33,7 +35,7 @@ const Post = ({thumbnail, title, mainBg, category, profileImg, contents, userNam
                     </p>
                 </div>
             </article>
-        </a>
+        </Link>
     );
 }
 

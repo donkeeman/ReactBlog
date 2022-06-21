@@ -5,23 +5,19 @@ import Logouted from "./Logouted";
 import Logo from "../../assets/Logo.svg";
 
 import {useState} from "react";
+import { Link } from "react-router-dom";
 
 const Header = ({profileImg}) => {
 
-    const [login, setLogin] = useState(true);
-
-    // const handleLogin = () =>{
-    //     setLogin(!login);
-    //     console.log(login);
-    // }
+    const [login, setLogin] = useState(false);
 
     return(
     <header>
         <div className={`${styles["max-width"]} ${"max-width"}`}>
             <h1>
-                <a href="../">
+                <Link to="/">
                     <img src={Logo} alt="My Blog" />
-                </a>
+                </Link>
             </h1>
             {login
             ? <Logined profileImg={profileImg} setLogin={setLogin}/>

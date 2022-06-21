@@ -5,7 +5,7 @@ import data from "../../database/data.json";
 
 const Main = () => {
     return(
-        <main>
+		<main>
 			{/* <!-- posts --> */}
 			<div class={`${styles["max-width"]} ${"max-width"}`}>
 				<h2 class="a11y-hidden">Post</h2>
