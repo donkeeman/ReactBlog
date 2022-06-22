@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Post = ({thumbnail, title, mainBg, category, profileImg, contents, userName, created}) => {
     return(
-        <Link to="/postview" className={styles["post"]}>
+        <Link to="/post-view" className={styles["post"]}>
             <article>
                 <img src={thumbnail} alt="" />
                 <div className={styles["contents-wrap"]}>

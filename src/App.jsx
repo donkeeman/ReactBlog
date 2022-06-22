@@ -1,4 +1,4 @@
-import { BrowserRouter , Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "../src/components/Header/Header"
 import Footer from "../src/components/Footer/Footer"
@@ -14,14 +14,16 @@ function App() {
 	return(
 		<BrowserRouter>
 			<Header profileImg={data.users[0].profileImg} />
+			<Routes>
 			<Route
-				path="/" exact
-				render={ props => <HomePage {...props} data={data.blog} />}
+				path="/"
+				element={<HomePage data={data.blog} />}
 			/>
-			<Route exact
-				path="/postview"
-				component={ props => <PostView {...props} />}
+			<Route
+				path="/post-view"
+				element={<PostView />}
 			/>
+			</Routes>
 			<Footer />
 		</BrowserRouter>
 	);
