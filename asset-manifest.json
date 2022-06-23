@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactBlog/static/css/main.7ba957e2.css",
-    "main.js": "/ReactBlog/static/js/main.4b892d64.js",
+    "main.js": "/ReactBlog/static/js/main.d316a6e5.js",
     "static/media/background.jpg": "/ReactBlog/static/media/background.9d8ffdf2b026e3a71002.jpg",
     "static/media/Github.svg": "/ReactBlog/static/media/Github.a3c4dcfab0b4e93735a77fdd72183c89.svg",
     "static/media/Logo.svg": "/ReactBlog/static/media/Logo.53fb08a30d5142d051a06aa1851e9f4a.svg",
@@ -23,10 +23,10 @@
     "static/media/ArrowLeft-blue.svg": "/ReactBlog/static/media/ArrowLeft-blue.6f1f3370508f86e68158.svg",
     "static/media/ArrowTop.svg": "/ReactBlog/static/media/ArrowTop.b49d51006c9a31ea89b3.svg",
     "main.7ba957e2.css.map": "/ReactBlog/static/css/main.7ba957e2.css.map",
-    "main.4b892d64.js.map": "/ReactBlog/static/js/main.4b892d64.js.map"
+    "main.d316a6e5.js.map": "/ReactBlog/static/js/main.d316a6e5.js.map"
   },
   "entrypoints": [
     "static/css/main.7ba957e2.css",
-    "static/js/main.4b892d64.js"
+    "static/js/main.d316a6e5.js"
   ]
 }
