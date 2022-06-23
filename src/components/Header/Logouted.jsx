@@ -18,7 +18,7 @@ const Logouted = ({setLogin}) => {
                 </a>
             </li>
             <li className="only-pc">
-                <a href="/" className={`${"button gray"} ${styles["button"]}`}>
+                <a href="#" className={`${"button gray"} ${styles["button"]}`}>
                     <img src={Register} alt="" />
                     <span>Register</span>
                 </a>
