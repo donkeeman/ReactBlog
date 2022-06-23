@@ -16,7 +16,7 @@ function App() {
 			<Routes>
 			<Route
 				path="/"
-				element={<HomePage data={data.blog} />}
+				element={<HomePage data={data} />}
 			/>
 			<Route
 				path="/PostView"

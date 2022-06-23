@@ -4,8 +4,8 @@ import Main from "../components/Main/Main"
 const HomePage = ({data}) => {
     return(
         <>
-            <Banner mainTitle={data.mainTitle} subTitle={data.subTitle} description={data.description}/>
-            <Main />
+            <Banner mainTitle={data.blog.mainTitle} subTitle={data.blog.subTitle} description={data.blog.description}/>
+            <Main data={data}/>
         </>
     );
 }

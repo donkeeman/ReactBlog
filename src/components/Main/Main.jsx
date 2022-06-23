@@ -1,9 +1,8 @@
 import styles from "./main.module.css";
 import Posts from "./Posts";
 import About from "./About";
-import data from "../../database/data.json";
 
-const Main = () => {
+const Main = ({data}) => {
     return(
 		<main>
 			{/* <!-- posts --> */}
