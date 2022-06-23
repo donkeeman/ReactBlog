@@ -8,7 +8,7 @@ const Post = ({thumbnail, title, mainBg, category, profileImg, contents, userNam
     return(
         <Link to="./PostView" className={styles["post"]}>
             <article>
-                <img src={thumbnail} alt="" />
+                <img src={process.env.PUBLIC_URL+thumbnail} alt="" />
                 <div className={styles["contents-wrap"]}>
                     {/* <!-- category --> */}
                     <dl className="category">
@@ -24,7 +24,7 @@ const Post = ({thumbnail, title, mainBg, category, profileImg, contents, userNam
                     {/* <!-- author --> */}
                     <dl className="author-wrap">
                         <dt className="a11y-hidden">Author</dt>
-                        <dd className="author"><img src={profileImg} alt="" /> Chilli</dd>
+                        <dd className="author"><img src={process.env.PUBLIC_URL+profileImg} alt="" /> Chilli</dd>
                         <dt className="a11y-hidden">Created</dt>
                         <dd className="created">{created}</dd>
                     </dl>

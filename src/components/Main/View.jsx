@@ -15,7 +15,7 @@ const View = () => {
 						{/* <!-- author --> */}
 						<dl className={`${styles["author-wrap"]} ${"author-wrap"}`}>
 							<dt className="a11y-hidden">Author</dt>
-							<dd className="author"><img src="/assets/profile.jpg" alt="" /> Chilli</dd>
+							<dd className="author"><img src={process.env.PUBLIC_URL+"/assets/profile.jpg"} alt="" /> Chilli</dd>
 							<dt className="a11y-hidden">Created</dt>
 							<dd className="created">2022.05.25</dd>
 						</dl>
@@ -42,7 +42,7 @@ const View = () => {
 								amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio
 								cum incidunt repudiandae vel.
 							</p>
-							<img src="/assets/post-background6.jpg" alt="" />
+							<img src={process.env.PUBLIC_URL+"/assets/post-background6.jpg"} alt="" />
 							<p>
 								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est
 								facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti

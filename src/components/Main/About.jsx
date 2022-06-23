@@ -11,7 +11,7 @@ const About = ({user}) => {
     return(
         <aside className={styles["about"]}>
                 <h2>About Me</h2>
-                <img src={user.profileImg} alt="" className={styles["user-profile"]} />
+                <img src={process.env.PUBLIC_URL+user.profileImg} alt="" className={styles["user-profile"]} />
                 <p className={styles["user-name"]}>{user.name}</p>
                 <p className={styles["user-description"]}>{user.userInfo}</p>
                 <h3>Categories</h3>

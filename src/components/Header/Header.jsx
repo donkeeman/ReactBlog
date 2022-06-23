@@ -20,7 +20,7 @@ const Header = ({profileImg}) => {
                 </Link>
             </h1>
             {login
-            ? <Logined profileImg={profileImg} setLogin={setLogin}/>
+            ? <Logined profileImg={process.env.PUBLIC_URL+profileImg} setLogin={setLogin}/>
             : <Logouted setLogin={setLogin} />}
         </div>
     </header>

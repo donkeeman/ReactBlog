@@ -4,7 +4,7 @@ import Post from "./Post";
 const Posts = ({posts}) => {
     return (
         <ul className={styles["posts"]}>
-            {posts.map( x => {
+            {posts.slice(0).reverse().map( x => {
                 return(
                 <li key={x.id}>
                     <Post
