@@ -15,7 +15,7 @@ const Header = ({profileImg}) => {
     <header>
         <div className={`${styles["max-width"]} ${"max-width"}`}>
             <h1>
-                <Link to="/">
+                <Link to=".">
                     <img src={Logo} alt="My Blog" />
                 </Link>
             </h1>

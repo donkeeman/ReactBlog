@@ -4,6 +4,8 @@ import "./category.css";
 import "./wrapbox.css";
 import styles from "./view.module.css";
 
+import { Link } from "react-router-dom";
+
 const View = () => {
     return(
         <div className={`${styles["view"]} ${"view"}`}>
@@ -58,9 +60,9 @@ const View = () => {
 								<span className="a11y-hidden">delete</span>
 							</button>
 						</div>
-						<a href="./" className={`${styles["btn-back"]} ${"btn-back"}`}>
+						<Link to=".." className={`${styles["btn-back"]} ${"btn-back"}`}>
 							<span className="a11y-hidden">Back</span>
-						</a>
+						</Link>
 					</div>
 				</section>
 			</div>
