@@ -1,6 +1,7 @@
 # ReactBlog
->HTML/CSS로 작성되었던 블로그 페이지를 React로 변경하는 과제입니다.  
-https://donkeeman.github.io/ReactBlog/
+>HTML/CSS로 작성되었던 블로그 페이지를 React로 변경하는 과제입니다.
+
+링크: https://donkeeman.github.io/ReactBlog/
 ## 어려웠던 부분
 - 상대 경로로 이미지를 지정해서 deploy 후의 페이지에서는 이미지가 제대로 뜨지 않았음
   - ```process.env.PUBLIC_URL``` 을 이용한 절대 경로로 수정
